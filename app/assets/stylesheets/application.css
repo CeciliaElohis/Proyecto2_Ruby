@@ -13,3 +13,19 @@
  *= require_tree .
  *= require_self
  */
+ /* Aplica estos estilos a la clase logout-button */
+ .logout-button {
+    background: none;               
+    border: none;                   
+    color: #17e8ba;                 
+    font-size: 1rem;                
+    font-weight: bold;             
+    text-transform: uppercase;      
+    cursor: pointer;                
+    padding: 0;                     
+    text-decoration: none;         
+  }
+  
+  .logout-button:hover {
+    color: #14c8a3;                 
+  }
